@@ -1,0 +1,107 @@
+body{
+    font: 1.6rem;
+    box-sizing: border-box;
+    background-color: #FaF2F5;
+}
+.Login{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.facebook-text{
+    padding: 1.8rem;
+    font-size: 4rem;
+    color: blue;
+    font-size: 45%;
+}
+.title{
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 45%;
+}
+.login-container{
+    border: white .3rem solid;
+    background-color: white;
+    height: 23rem;
+    width: 26rem;
+    padding: 1rem;
+    border-radius: .7rem;
+}
+/* This is the input styling*/
+input[type=email]{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input::placeholder{
+    font-size: 1.3em;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    justify-content: center;
+    margin: 4px 2px;
+    border: .5rem;
+    color: #FaF2F5;
+}
+.forget a{
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    width: 60%;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-left: 20%;
+}
+.page a{
+    font-size: 1.2rem;
+    color: black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.page{
+    font-size: 1rem;
+    padding-left: 10%;
+}
+.login-detail{
+    border-bottom: 1rem black solid;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn a:hover{
+    color: black;
+}
