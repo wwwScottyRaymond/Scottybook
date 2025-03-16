@@ -1,8 +1,8 @@
 import React from 'react';
 import './HeaderArea.css'
-import {AiOutLineSearch, AiFillHome, AiOutLineWallet} from 'react-icons/al'
+import {AiOutlineSearch, AiFillHome, AiOutlineWallet} from 'react-icons/ai'
 import { MdOutlineVideoLabel } from "react-icons/md";
-import { FaRegFlag,FaUsers,FaPlusCircle,FaFacebookMessenger,FaBell} from "react-icons/fa";
+import { FaRegFlag,FaUsers,FaPlusCircle,FaFacebookMessenger,FaBell } from "react-icons/fa";
 import MainArea from '../MainArea/MainArea';
 function HeaderArea () {
     return(
@@ -13,7 +13,7 @@ function HeaderArea () {
                         <img src='/images/logo.png' alt='logo' style={{height:"50px", padding: "1rem"}} />
                     </div>
                     <div className='search'>
-                        <AiOutLineSearch style={{height:"4rem"}} />
+                        <AiOutlineSearch style={{height:"4rem"}} />
                     </div>
                 </div>
                 <div className='middle-header'>
@@ -27,7 +27,7 @@ function HeaderArea () {
                         <MdOutlineVideoLabel fontsize="2.3 rem" />
                     </div>
                     <div className='icon'>
-                        <AiOutLineWallet fontsize="2.3 rem" />
+                        <AiOutlineWallet fontsize="2.3 rem" />
                     </div>
                 </div>
                 <div className='third-header'>
@@ -41,6 +41,7 @@ function HeaderArea () {
                         <FaBell fontsize="2.3 rem"/>
                     </div>
                     <div className='pluss'>
+                        <FaUsers fontsize="2.3rem"/>
                         <img alt='dp' style={{height: "40px"}}/>
                     </div>
                 </div>

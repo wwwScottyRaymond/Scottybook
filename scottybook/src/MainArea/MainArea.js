@@ -1,17 +1,12 @@
 import { MdVideoCall, MdMoreHoriz } from "react-icons/md";
-import { FaAngleDown, FaGrin, FaRegThumbsUp, FaRegCommentAlt, FaRegShareSquare, FaSearch, FaFacebookMessenger,FaMedkit, FaPager } from "react-icons/fa";
+import { FaAngleDown, FaGrin, FaRegThumbsUp,FaRegCommentAlt,FaRegShareSquare,FaSearch,FaFacebookMessenger,FaMedkit,FaPager,FaUserFriends } from "react-icons/fa"
 import { AiFillFileImage } from "react-icons/ai";
-
-
-
-
-
 function MainArea () {
     return(
         <div className="main">
             <div className="r-side">
                 <div className="profile">
-                    <img style={{height: "60px", padding: "1rem"}}/>
+                    <img alt="pp" style={{height: "60px", padding: "1rem"}}/>
                     Scotty Raymond
                 </div>
                 <div className="pro">
@@ -37,15 +32,15 @@ function MainArea () {
                 <br></br>
                 <h2>Profiles</h2>
                 <div className="profiles">
-                    <img />
+                    <img alt="pp"/>
                     React Developers
                 </div>
                 <div className="profiles">
-                    <img />
+                    <img alt="pp"/>
                     Network Engineering
                 </div>
                 <div className="profiles">
-                    <img />
+                    <img alt="pp"/>
                     Backend Development
                 </div>
                 <div className="pross">
