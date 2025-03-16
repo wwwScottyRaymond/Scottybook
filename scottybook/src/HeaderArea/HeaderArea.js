@@ -10,10 +10,10 @@ function HeaderArea () {
             <div className='header'>
                 <div className='first-header'>
                     <div className='logo'>
-                        <img src='/images/logo.png' alt='logo' style={{height:50px, padding: 1rem}} />
+                        <img src='/images/logo.png' alt='logo' style={{height:"50px", padding: "1rem"}} />
                     </div>
                     <div className='search'>
-                        <AiOutLineSearch style={{height: 4rem}} />
+                        <AiOutLineSearch style={{height:"4rem"}} />
                     </div>
                 </div>
                 <div className='middle-header'>
@@ -41,6 +41,7 @@ function HeaderArea () {
                         <FaBell fontsize="2.3 rem"/>
                     </div>
                     <div className='pluss'>
+                        <img alt='dp' style={{height: "40px"}}/>
                     </div>
                 </div>
             </div>
